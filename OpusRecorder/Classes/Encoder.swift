@@ -402,7 +402,7 @@ private class CommentHeader {
     init() {
         magicSignature = [ 0x4f, 0x70, 0x75, 0x73, 0x54, 0x61, 0x67, 0x73 ] // "OpusTags"
         vendorString = String(validatingUTF8: opus_get_version_string())!
-        vendorStringLength = UInt32(vendorString.characters.count)
+        vendorStringLength = UInt32(vendorString.count)
         userComments = [Comment(tag: "ENCODER", value: "IBM Mobile Innovation Lab")]
         userCommentListLength = UInt32(userComments.count)
     }
@@ -427,7 +427,7 @@ fileprivate class Comment {
     
     fileprivate init(tag: String, value: String) {
         comment = "\(tag)=\(value)"
-        length = UInt32(comment.characters.count)
+        length = UInt32(comment.count)
     }
     
     fileprivate func toData() -> Data {

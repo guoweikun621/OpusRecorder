@@ -46,7 +46,7 @@ internal class Session {
     }
     
     /// Invoked when the session disconnects from the Speech to Text service.
-    public var onDisconnect: ((Void) -> Void)?
+    public var onDisconnect: (() -> Void)?
     
     /// Invoked when an error or warning occurs.
     public var onError: ((Error) -> Void)?

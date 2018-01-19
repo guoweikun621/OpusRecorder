@@ -74,7 +74,7 @@ class ViewController: UIViewController {
     }
     
     
-    func updateRecordingTimer() {
+    @objc func updateRecordingTimer() {
         let currentTime = Date.timeIntervalSinceReferenceDate
         let elapsedTime: TimeInterval = currentTime - recorderStartTime
         self.durationLabel.text = String.stringFromTimeInterval(elapsedTime)
