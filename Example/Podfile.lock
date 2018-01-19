@@ -6,7 +6,7 @@ PODS:
     - FBSnapshotTestCase/Core
   - ogg-ios (1.3.2)
   - opus-ios (1.1.3)
-  - OpusRecorder (0.1.0):
+  - OpusRecorder (1.0):
     - ogg-ios (~> 1.3.2)
     - opus-ios (~> 1.1.3)
   - OrigamiEngine/Core (1.0.14)
@@ -27,17 +27,17 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   OrigamiEngine:
-    :commit: 22e73a7348e214e7599e35a80e07683115c1fb79
+    :commit: 3b762046eab32eae1fca9841ddff5e72fbadca5c
     :git: https://github.com/obaskanderi/OrigamiEngine
     :submodules: true
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ogg-ios: a7a0ba5406f72b7a86f700c387f9be652c85b1c8
-  opus-ios: 19844a35de2292d8556277f99204c721ad644352
-  OpusRecorder: 5d478b02217d95f9319380d84031e49008a71ea2
+  ogg-ios: da2a4cc0c7e84a01c60c38241af2533defbb7249
+  opus-ios: 22c5b7a5d37cdb661e73f6a65932dbf902d4214f
+  OpusRecorder: 38a9b0773e21d58532bc13b643048389567da3d0
   OrigamiEngine: 74b097326260597f1498790795cc2cdd604c199a
 
 PODFILE CHECKSUM: 7434d5cc19c4f72cab7a0d1c74bf4dd994c81800
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1
